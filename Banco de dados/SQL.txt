@@ -1,0 +1,114 @@
+-- Configura o delimitador para o uso de triggers e eventos
+DELIMITER $$
+
+-- Criação do Banco de Dados (opcional)
+CREATE DATABASE IF NOT EXISTS LocadoraDeCarros;
+USE LocadoraDeCarros;
+
+-- Tabelas
+CREATE TABLE Cliente (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(50),
+    email VARCHAR(50),
+    cpf VARCHAR(50),
+    senha VARCHAR(50)
+);
+
+CREATE TABLE Carro (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    marca VARCHAR(50),
+    modelo VARCHAR(50),
+    ano VARCHAR(50),
+    quantidade INTEGER,
+    foto BLOB
+);
+
+CREATE TABLE Agenda (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    data_inicio DATE,
+    data_fim DATE,
+    valor VARCHAR(50),
+    FK_Carro_id INTEGER,
+    status VARCHAR(50),
+    FOREIGN KEY (FK_Carro_id)
+        REFERENCES Carro (id)
+        ON DELETE RESTRICT ON UPDATE RESTRICT
+);
+
+CREATE TABLE Administrador (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(50),
+    email VARCHAR(50),
+    senha VARCHAR(50)
+);
+
+CREATE TABLE cliente_agenda (
+    FK_Cliente_id INTEGER,
+    FK_Agenda_id INTEGER,
+    FOREIGN KEY (FK_Cliente_id)
+        REFERENCES Cliente (id)
+        ON DELETE RESTRICT ON UPDATE RESTRICT,
+    FOREIGN KEY (FK_Agenda_id)
+        REFERENCES Agenda (id)
+        ON DELETE RESTRICT ON UPDATE RESTRICT
+);
+
+-- Triggers
+
+-- Trigger para atualizar o status na criação de uma nova agenda
+CREATE TRIGGER AtualizaStatusAgenda
+BEFORE INSERT ON Agenda
+FOR EACH ROW
+BEGIN
+    IF NEW.data_fim < CURDATE() THEN
+        SET NEW.status = 'finalizado';
+    ELSEIF NEW.data_inicio <= CURDATE() AND NEW.data_fim >= CURDATE() THEN
+        SET NEW.status = 'em andamento';
+    ELSE
+        SET NEW.status = 'não iniciado';
+    END IF;
+END$$ 
+
+-- Trigger para reduzir o estoque do carro ao criar uma nova agenda
+CREATE TRIGGER ReduzEstoqueCarro
+AFTER INSERT ON Agenda
+FOR EACH ROW
+BEGIN
+    IF (SELECT quantidade FROM Carro WHERE id = NEW.FK_Carro_id) > 0 THEN
+        UPDATE Carro
+        SET quantidade = quantidade - 1
+        WHERE id = NEW.FK_Carro_id;
+    ELSE
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Estoque insuficiente para o carro solicitado.';
+    END IF;
+END$$
+
+-- Trigger para restaurar o estoque do carro se a agenda for finalizada
+CREATE TRIGGER RestauraEstoqueCarro
+AFTER UPDATE ON Agenda
+FOR EACH ROW
+BEGIN
+    IF NEW.status = 'finalizado' AND OLD.status != 'finalizado' THEN
+        UPDATE Carro
+        SET quantidade = quantidade + 1
+        WHERE id = NEW.FK_Carro_id;
+    END IF;
+END$$
+
+-- Evento para atualizar o status das agendas automaticamente todos os dias
+CREATE EVENT AtualizaStatusAgendaEvent
+ON SCHEDULE EVERY 1 DAY
+DO
+BEGIN
+    UPDATE Agenda
+    SET status = CASE
+        WHEN data_fim < CURDATE() THEN 'finalizado'
+        WHEN data_inicio <= CURDATE() AND data_fim >= CURDATE() THEN 'em andamento'
+        ELSE 'não iniciado'
+    END
+    WHERE status != 'finalizado'; -- Evita atualizar registros já finalizados
+END$$
+
+-- Volta ao delimitador padrão
+DELIMITER ;
