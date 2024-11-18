@@ -171,6 +171,9 @@
     <EmbeddedResource Include="administradorEntrada.resx">
       <DependentUpon>administradorEntrada.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="clienteAgendaVisualizar.resx">
+      <DependentUpon>clienteAgendaVisualizar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clienteCadastroEntrada.resx">
       <DependentUpon>clienteCadastroEntrada.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +201,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
