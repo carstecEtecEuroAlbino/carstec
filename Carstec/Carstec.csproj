@@ -46,17 +46,113 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="administradorAdministradorAdicionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorAdministradorAdicionar.Designer.cs">
+      <DependentUpon>administradorAdministradorAdicionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorAdministradorExcluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorAdministradorExcluir.Designer.cs">
+      <DependentUpon>administradorAdministradorExcluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorAdministradorVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorAdministradorVisualizar.Designer.cs">
+      <DependentUpon>administradorAdministradorVisualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorAgendasAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorAgendasAlterar.Designer.cs">
+      <DependentUpon>administradorAgendasAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorAgendasExcluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorAgendasExcluir.Designer.cs">
+      <DependentUpon>administradorAgendasExcluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorAgendasVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorAgendasVisualizar.Designer.cs">
+      <DependentUpon>administradorAgendasVisualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorCarroAdicionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorCarroAdicionar.Designer.cs">
+      <DependentUpon>administradorCarroAdicionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorCarroAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorCarroAlterar.Designer.cs">
+      <DependentUpon>administradorCarroAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorCarroExcluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorCarroExcluir.Designer.cs">
+      <DependentUpon>administradorCarroExcluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorCarroVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorCarroVisualizar.Designer.cs">
+      <DependentUpon>administradorCarroVisualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorClientesAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorClientesAlterar.Designer.cs">
+      <DependentUpon>administradorClientesAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorClientesExcluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorClientesExcluir.Designer.cs">
+      <DependentUpon>administradorClientesExcluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="administradorClientesVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administradorClientesVisualizar.Designer.cs">
+      <DependentUpon>administradorClientesVisualizar.cs</DependentUpon>
+    </Compile>
     <Compile Include="administradorEntrada.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="administradorEntrada.Designer.cs">
       <DependentUpon>administradorEntrada.cs</DependentUpon>
     </Compile>
+    <Compile Include="clienteAgendaVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clienteAgendaVisualizar.Designer.cs">
+      <DependentUpon>clienteAgendaVisualizar.cs</DependentUpon>
+    </Compile>
     <Compile Include="clienteCadastroEntrada.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="clienteCadastroEntrada.Designer.cs">
       <DependentUpon>clienteCadastroEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clienteCarroAgendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clienteCarroAgendar.Designer.cs">
+      <DependentUpon>clienteCarroAgendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clienteCarroVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clienteCarroVisualizar.Designer.cs">
+      <DependentUpon>clienteCarroVisualizar.cs</DependentUpon>
     </Compile>
     <Compile Include="clienteHome.cs">
       <SubType>Form</SubType>
