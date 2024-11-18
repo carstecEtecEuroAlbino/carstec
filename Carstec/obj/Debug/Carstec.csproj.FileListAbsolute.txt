@@ -1,0 +1,12 @@
+F:\Carstec\Carstec\Carstec\bin\Debug\Carstec.exe.config
+F:\Carstec\Carstec\Carstec\bin\Debug\Carstec.exe
+F:\Carstec\Carstec\Carstec\bin\Debug\Carstec.pdb
+F:\Carstec\Carstec\Carstec\obj\Debug\Carstec.csproj.AssemblyReference.cache
+F:\Carstec\Carstec\Carstec\obj\Debug\Carstec.administradorEntrada.resources
+F:\Carstec\Carstec\Carstec\obj\Debug\Carstec.clienteCadastroEntrada.resources
+F:\Carstec\Carstec\Carstec\obj\Debug\Carstec.Form1.resources
+F:\Carstec\Carstec\Carstec\obj\Debug\Carstec.Properties.Resources.resources
+F:\Carstec\Carstec\Carstec\obj\Debug\Carstec.csproj.GenerateResource.cache
+F:\Carstec\Carstec\Carstec\obj\Debug\Carstec.csproj.CoreCompileInputs.cache
+F:\Carstec\Carstec\Carstec\obj\Debug\Carstec.exe
+F:\Carstec\Carstec\Carstec\obj\Debug\Carstec.pdb
