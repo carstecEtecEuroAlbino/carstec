@@ -16,5 +16,11 @@ namespace Carstec
         {
             InitializeComponent();
         }
+
+        private void carrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            clienteCarroVisualizar carCliente = new clienteCarroVisualizar();
+            carCliente.Show();
+        }
     }
 }

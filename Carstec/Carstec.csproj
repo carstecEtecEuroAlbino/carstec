@@ -229,6 +229,12 @@
     <EmbeddedResource Include="clienteCadastroEntrada.resx">
       <DependentUpon>clienteCadastroEntrada.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="clienteCarroVisualizar.resx">
+      <DependentUpon>clienteCarroVisualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clienteHome.resx">
+      <DependentUpon>clienteHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

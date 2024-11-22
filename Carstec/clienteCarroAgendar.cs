@@ -12,9 +12,11 @@ namespace Carstec
 {
     public partial class clienteCarroAgendar : Form
     {
-        public clienteCarroAgendar()
+        public string id_carro = "";
+        public clienteCarroAgendar(string i)
         {
             InitializeComponent();
+            id_carro = i;
         }
     }
 }
