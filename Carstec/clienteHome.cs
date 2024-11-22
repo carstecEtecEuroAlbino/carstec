@@ -12,15 +12,22 @@ namespace Carstec
 {
     public partial class clienteHome : Form
     {
-        public clienteHome()
+        public string i = "";
+        public clienteHome(string i)
         {
             InitializeComponent();
+            
+
         }
 
         private void carrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             clienteCarroVisualizar carCliente = new clienteCarroVisualizar();
             carCliente.Show();
+        }
+
+        private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
         }
     }
 }
