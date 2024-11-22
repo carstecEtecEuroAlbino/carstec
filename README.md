@@ -12,11 +12,11 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 - [ ] Lista de veículos no módulo do administrador.
 - [ ] Lista de agendas no módulo do administrador.
 - [ ] Lista de administradores no módulo do administrador.
+- [x] Lista de clientes no módulo do administrador.
 
 ### [Giovani Depiéri Santos](https://github.com/Maracaruja)
 - [x] Entrada do cliente.
 - [x] Cadastro do cliente.
-- [ ] Lista de clientes no módulo do administrador.
 - [ ] Alteração do cliente no módulo do administrador.
 - [ ] Exclusão do cliente no módulo do administrador.
 
