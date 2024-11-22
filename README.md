@@ -19,11 +19,18 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 - [x] Cadastro do cliente.
 - [ ] Alteração do cliente no módulo do administrador.
 - [ ] Exclusão do cliente no módulo do administrador.
+- [ ] Alteração do cliente no módulo do cliente.
 
 ### [João Felipe Francisco Moreira](https://github.com/joaofelipe80)
 - [x] Criação do banco de dados.
-- [x] Criação das telas inicias.
-
-
+- [ ] Agendamento de veículos.
+- [ ] Cadastro de veículos.
+- [ ] Alterar agenda no módulo do administrador.
+- [ ] Excluir agenda no módulo do administrador.
+      
 ### [Venicius Ferraz de Aráujo](https://github.com/venicius-braco)
-
+- [ ] Alteração dos carros no módulo do administrador.
+- [ ] Exclusão dos carros no módulo do administrador.
+- [ ] Alteração dos dados do administrador.
+- [ ] Exclusão do administrador.
+- [ ] Cadastro de administrador.
