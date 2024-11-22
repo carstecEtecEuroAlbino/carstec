@@ -58,3 +58,5 @@ C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.pdb
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.clienteHome.resources
 C:\Users\Caiopa3\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.clienteAgendaVisualizarc.resources
 C:\Users\Caiopa3\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.clienteCarroVisualizarc.resources
+C:\Users\Caiopa3\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.administradorClientesVisualizar.resources
+C:\Users\Caiopa3\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.administradorHome.resources

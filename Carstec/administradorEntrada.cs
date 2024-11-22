@@ -16,5 +16,11 @@ namespace Carstec
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            administradorHome cadCliente = new administradorHome();
+            cadCliente.Show();
+        }
     }
 }
