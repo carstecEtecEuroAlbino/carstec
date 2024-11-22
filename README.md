@@ -14,7 +14,7 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 - [ ] Lista de administradores no módulo do administrador.
 
 ### [Giovani Depiéri Santos](https://github.com/Maracaruja)
-- [ ] Entrada do cliente.
+- [x] Entrada do cliente.
 - [x] Cadastro do cliente.
 - [ ] Lista de clientes no módulo do administrador.
 - [ ] Alteração do cliente no módulo do administrador.
