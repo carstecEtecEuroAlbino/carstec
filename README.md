@@ -21,6 +21,8 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 - [ ] Exclusão do cliente no módulo do administrador.
 
 ### [João Felipe Francisco Moreira](https://github.com/joaofelipe80)
+- [x] Criação do banco de dados.
+- [x] Criação das telas inicias.
 
 
 ### [Venicius Ferraz de Aráujo](https://github.com/venicius-braco)
