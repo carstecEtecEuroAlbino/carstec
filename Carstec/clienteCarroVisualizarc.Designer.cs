@@ -1,6 +1,6 @@
 ﻿namespace Carstec
 {
-    partial class clienteCarroVisualizar
+    partial class clienteCarroVisualizarc
     {
         /// <summary>
         /// Required designer variable.
@@ -43,7 +43,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(432, 18);
+            this.button2.Location = new System.Drawing.Point(481, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 25);
             this.button2.TabIndex = 27;
@@ -53,18 +53,17 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(432, 49);
+            this.textBox2.Location = new System.Drawing.Point(481, 43);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 26;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 95);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 88);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(583, 259);
+            this.dataGridView1.Size = new System.Drawing.Size(610, 259);
             this.dataGridView1.TabIndex = 25;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -72,7 +71,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(129, 18);
+            this.label2.Location = new System.Drawing.Point(167, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 23;
@@ -81,7 +80,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 19);
+            this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 22;
@@ -89,7 +88,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(272, 19);
+            this.button1.Location = new System.Drawing.Point(354, 20);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(83, 34);
             this.button1.TabIndex = 21;
@@ -100,31 +99,31 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(132, 34);
+            this.comboBox1.Location = new System.Drawing.Point(170, 28);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 20;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 35);
+            this.textBox1.Location = new System.Drawing.Point(12, 28);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 19;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(622, 126);
+            this.pictureBox1.Location = new System.Drawing.Point(650, 104);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(215, 187);
-            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.Size = new System.Drawing.Size(197, 217);
+            this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
             // 
-            // clienteCarroVisualizar
+            // clienteCarroVisualizarc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(868, 363);
+            this.ClientSize = new System.Drawing.Size(870, 359);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox2);
@@ -134,8 +133,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
-            this.Name = "clienteCarroVisualizar";
-            this.Text = "clienteCarroVisualizar";
+            this.Name = "clienteCarroVisualizarc";
+            this.Text = "clienteCarroVisualizarc";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

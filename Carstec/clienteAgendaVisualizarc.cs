@@ -3,23 +3,21 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Carstec
 {
-    public partial class clienteCarroVisualizar : Form
+    public partial class clienteAgendaVisualizarc : Form
     {
-        public string id_cliente = "";
-
-        public clienteCarroVisualizar(string i)
+        public string id_cliente = "1";
+        public clienteAgendaVisualizarc()
         {
             InitializeComponent();
-            id_cliente = i;
             dataGridView1.ReadOnly = false;
 
             try
@@ -68,15 +66,7 @@ namespace Carstec
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0)
-            {
-                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
-
-                textBox2.Text = row.Cells["ID Agenda"].Value.ToString();
-
-                // Como não há foto na tabela Agenda, nada será carregado no PictureBox
-                pictureBox1.Image = null;
-            }
+           
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -47,9 +47,7 @@ C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\bin\Debug\System.Runtime.Compil
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.csproj.AssemblyReference.cache
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.administradorEntrada.resources
-C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.clienteAgendaVisualizar.resources
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.clienteCadastroEntrada.resources
-C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.clienteCarroVisualizar.resources
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.Form1.resources
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.Properties.Resources.resources
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.csproj.GenerateResource.cache
@@ -58,3 +56,5 @@ C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.csproj.Up2Dat
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.exe
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.pdb
 C:\Users\Caiopa3\Desktop\Carstec\carstec\Carstec\obj\Debug\Carstec.clienteHome.resources
+C:\Users\Caiopa3\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.clienteAgendaVisualizarc.resources
+C:\Users\Caiopa3\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.clienteCarroVisualizarc.resources

@@ -182,11 +182,11 @@
     <Compile Include="administradorEntrada.Designer.cs">
       <DependentUpon>administradorEntrada.cs</DependentUpon>
     </Compile>
-    <Compile Include="clienteAgendaVisualizar.cs">
+    <Compile Include="clienteAgendaVisualizarc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="clienteAgendaVisualizar.Designer.cs">
-      <DependentUpon>clienteAgendaVisualizar.cs</DependentUpon>
+    <Compile Include="clienteAgendaVisualizarc.Designer.cs">
+      <DependentUpon>clienteAgendaVisualizarc.cs</DependentUpon>
     </Compile>
     <Compile Include="clienteCadastroEntrada.cs">
       <SubType>Form</SubType>
@@ -200,11 +200,11 @@
     <Compile Include="clienteCarroAgendar.Designer.cs">
       <DependentUpon>clienteCarroAgendar.cs</DependentUpon>
     </Compile>
-    <Compile Include="clienteCarroVisualizar.cs">
+    <Compile Include="clienteCarroVisualizarc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="clienteCarroVisualizar.Designer.cs">
-      <DependentUpon>clienteCarroVisualizar.cs</DependentUpon>
+    <Compile Include="clienteCarroVisualizarc.Designer.cs">
+      <DependentUpon>clienteCarroVisualizarc.cs</DependentUpon>
     </Compile>
     <Compile Include="clienteHome.cs">
       <SubType>Form</SubType>
@@ -223,14 +223,14 @@
     <EmbeddedResource Include="administradorEntrada.resx">
       <DependentUpon>administradorEntrada.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clienteAgendaVisualizar.resx">
-      <DependentUpon>clienteAgendaVisualizar.cs</DependentUpon>
+    <EmbeddedResource Include="clienteAgendaVisualizarc.resx">
+      <DependentUpon>clienteAgendaVisualizarc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clienteCadastroEntrada.resx">
       <DependentUpon>clienteCadastroEntrada.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clienteCarroVisualizar.resx">
-      <DependentUpon>clienteCarroVisualizar.cs</DependentUpon>
+    <EmbeddedResource Include="clienteCarroVisualizarc.resx">
+      <DependentUpon>clienteCarroVisualizarc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clienteHome.resx">
       <DependentUpon>clienteHome.cs</DependentUpon>

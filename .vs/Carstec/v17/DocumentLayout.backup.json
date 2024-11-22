@@ -1,13 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Caiopa3\\Desktop\\Carstec\\carstec\\",
+  "WorkspaceRootPath": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\clientecarrovisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\clientecarrovisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\carstec\\clientehome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\clientehome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|C:\\Users\\Caiopa3\\Desktop\\Carstec\\carstec\\carstec\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\carstec\\clientehome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\clientehome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\clientecarrovisualizarc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\clientecarrovisualizarc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\clientecarrovisualizarc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\clientecarrovisualizarc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\carstec\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,15 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\Carstec\\carstec\\Carstec\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\Form1.cs",
               "RelativeDocumentMoniker": "Carstec\\Form1.cs",
-              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\Carstec\\carstec\\Carstec\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\Form1.cs [Design]",
               "RelativeToolTip": "Carstec\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T23:14:04.314Z",
@@ -35,14 +47,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clienteCarroVisualizar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\Carstec\\carstec\\Carstec\\clienteCarroVisualizar.cs",
-              "RelativeDocumentMoniker": "Carstec\\clienteCarroVisualizar.cs",
-              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\Carstec\\carstec\\Carstec\\clienteCarroVisualizar.cs [Design]",
-              "RelativeToolTip": "Carstec\\clienteCarroVisualizar.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "clienteCarroVisualizarc.cs",
+              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\clienteCarroVisualizarc.cs",
+              "RelativeDocumentMoniker": "Carstec\\clienteCarroVisualizarc.cs",
+              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\clienteCarroVisualizarc.cs",
+              "RelativeToolTip": "Carstec\\clienteCarroVisualizarc.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAswJIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T13:52:54.51Z",
+              "WhenOpened": "2024-11-22T15:59:54.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clienteCarroVisualizarc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\clienteCarroVisualizarc.cs",
+              "RelativeDocumentMoniker": "Carstec\\clienteCarroVisualizarc.cs",
+              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\clienteCarroVisualizarc.cs [Design]",
+              "RelativeToolTip": "Carstec\\clienteCarroVisualizarc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:55:10.514Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clienteHome.cs",
+              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\clienteHome.cs",
+              "RelativeDocumentMoniker": "Carstec\\clienteHome.cs",
+              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\clienteHome.cs",
+              "RelativeToolTip": "Carstec\\clienteHome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:52:41.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clienteHome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\clienteHome.cs",
+              "RelativeDocumentMoniker": "Carstec\\clienteHome.cs",
+              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\clienteHome.cs [Design]",
+              "RelativeToolTip": "Carstec\\clienteHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:52:35.335Z",
               "EditorCaption": " [Design]"
             }
           ]

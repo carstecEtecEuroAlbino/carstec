@@ -12,9 +12,9 @@ using MySql.Data.MySqlClient;
 
 namespace Carstec
 {
-    public partial class clienteCarroVisualizar : Form
+    public partial class clienteCarroVisualizarc : Form
     {
-        public clienteCarroVisualizar()
+        public clienteCarroVisualizarc()
         {
             InitializeComponent();
             dataGridView1.ReadOnly = false;
@@ -72,6 +72,7 @@ namespace Carstec
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             string campo = Convert.ToString(comboBox1.Text);
             string nomecampo = Convert.ToString(textBox1.Text);
 
@@ -146,11 +147,6 @@ namespace Carstec
             clienteCarroAgendar agendarCliente = new clienteCarroAgendar(id);
             agendarCliente.Show();
             this.Close();
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
