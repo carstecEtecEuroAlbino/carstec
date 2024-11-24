@@ -9,7 +9,7 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 ### [Caio Raphael Rangel](https://github.com/caiopa3)
 - [x] Lista de veículos no módulo do cliente.
 - [x] Histórico de agendas no módulo do cliente.
-- [ ] Lista de veículos no módulo do administrador.
+- [x] Lista de veículos no módulo do administrador.
 - [ ] Lista de agendas no módulo do administrador.
 - [ ] Lista de administradores no módulo do administrador.
 - [x] Lista de clientes no módulo do administrador.
