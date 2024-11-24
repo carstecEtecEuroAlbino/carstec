@@ -42,6 +42,7 @@
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // contextMenuStrip2
             // 
@@ -66,6 +67,7 @@
             this.carroToolStripMenuItem.Name = "carroToolStripMenuItem";
             this.carroToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.carroToolStripMenuItem.Text = "Carro";
+            this.carroToolStripMenuItem.Click += new System.EventHandler(this.carroToolStripMenuItem_Click);
             // 
             // clienteToolStripMenuItem
             // 

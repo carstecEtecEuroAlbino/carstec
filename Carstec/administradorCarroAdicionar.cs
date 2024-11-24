@@ -12,9 +12,11 @@ namespace Carstec
 {
     public partial class administradorCarroAdicionar : Form
     {
-        public administradorCarroAdicionar()
+        public string id = "";
+        public administradorCarroAdicionar(string i)
         {
             InitializeComponent();
+            id = i;
         }
     }
 }

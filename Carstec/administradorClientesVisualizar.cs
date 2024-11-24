@@ -122,9 +122,23 @@ namespace Carstec
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
                 textBox2.Text = row.Cells["id"].Value.ToString();
-                textBox3.Text = row.Cells["id"].Value.ToString();
-
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string id = textBox2.Text;
+
+            administradorClientesAlterar administradorClientesAlterar = new administradorClientesAlterar(id);
+            administradorClientesAlterar.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string id = textBox2.Text;
+
+            administradorClientesExcluir administradorClientesExcluir = new administradorClientesExcluir(id);
+            administradorClientesExcluir.Show();
         }
     }
 }

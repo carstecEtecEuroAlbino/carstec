@@ -17,7 +17,6 @@ namespace Carstec
         {
             InitializeComponent();
             id = i;
-
         }
 
         private void carrosToolStripMenuItem_Click(object sender, EventArgs e)

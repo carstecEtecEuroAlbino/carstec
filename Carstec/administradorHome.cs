@@ -19,8 +19,14 @@ namespace Carstec
 
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            administradorClientesVisualizar cadCliente = new administradorClientesVisualizar();
-            cadCliente.Show();
+            administradorClientesVisualizar administradorClientesVisualizar = new administradorClientesVisualizar();
+            administradorClientesVisualizar.Show();
+        }
+
+        private void carroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            administradorCarroVisualizar administradorCarroVisualizar = new administradorCarroVisualizar();
+            administradorCarroVisualizar.Show();
         }
     }
 }
