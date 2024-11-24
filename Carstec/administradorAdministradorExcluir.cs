@@ -12,9 +12,11 @@ namespace Carstec
 {
     public partial class administradorAdministradorExcluir : Form
     {
-        public administradorAdministradorExcluir()
+        public string id = "";
+        public administradorAdministradorExcluir(string i)
         {
             InitializeComponent();
+            id = i;
         }
     }
 }

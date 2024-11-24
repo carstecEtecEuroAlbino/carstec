@@ -3,31 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\administradoragendasvisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\administradoragendasvisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\administradoragendasvisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\administradoragendasvisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\administradorcarrovisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\administradorcarrovisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\administradorcarrovisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\administradorcarrovisualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\administradorhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\administradorhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\administradorhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\administradorhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|c:\\users\\caiopa3\\desktop\\carstec\\carstec\\carstec\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\carstec\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35639C32-45CF-4EBC-8929-2CD06F391F0E}|Carstec\\Carstec.csproj|solutionrelative:carstec\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\Form1.cs",
               "RelativeDocumentMoniker": "Carstec\\Form1.cs",
@@ -55,77 +35,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "administradorCarroVisualizar.cs",
-              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorCarroVisualizar.cs",
-              "RelativeDocumentMoniker": "Carstec\\administradorCarroVisualizar.cs",
-              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorCarroVisualizar.cs",
-              "RelativeToolTip": "Carstec\\administradorCarroVisualizar.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAADwv3IAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:42:45.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "administradorCarroVisualizar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorCarroVisualizar.cs",
-              "RelativeDocumentMoniker": "Carstec\\administradorCarroVisualizar.cs",
-              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorCarroVisualizar.cs [Design]",
-              "RelativeToolTip": "Carstec\\administradorCarroVisualizar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:42:44.806Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "administradorAgendasVisualizar.cs",
-              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorAgendasVisualizar.cs",
-              "RelativeDocumentMoniker": "Carstec\\administradorAgendasVisualizar.cs",
-              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorAgendasVisualizar.cs",
-              "RelativeToolTip": "Carstec\\administradorAgendasVisualizar.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAmwBcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:42:41.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "administradorAgendasVisualizar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorAgendasVisualizar.cs",
-              "RelativeDocumentMoniker": "Carstec\\administradorAgendasVisualizar.cs",
-              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorAgendasVisualizar.cs [Design]",
-              "RelativeToolTip": "Carstec\\administradorAgendasVisualizar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:42:40.398Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "administradorHome.cs",
-              "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorHome.cs",
-              "RelativeDocumentMoniker": "Carstec\\administradorHome.cs",
-              "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorHome.cs",
-              "RelativeToolTip": "Carstec\\administradorHome.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAswBMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:41:16.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "administradorHome.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorHome.cs",
               "RelativeDocumentMoniker": "Carstec\\administradorHome.cs",
               "ToolTip": "C:\\Users\\Caiopa3\\Desktop\\carstec\\carstec\\Carstec\\administradorHome.cs [Design]",
               "RelativeToolTip": "Carstec\\administradorHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:41:14.159Z",
+              "WhenOpened": "2024-11-24T23:11:53.025Z",
               "EditorCaption": " [Design]"
             }
           ]

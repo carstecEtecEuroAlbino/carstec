@@ -226,6 +226,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="administradorAdministradorVisualizar.resx">
+      <DependentUpon>administradorAdministradorVisualizar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="administradorAgendasVisualizar.resx">
       <DependentUpon>administradorAgendasVisualizar.cs</DependentUpon>
     </EmbeddedResource>
