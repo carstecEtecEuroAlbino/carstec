@@ -14,10 +14,11 @@ namespace Carstec
 {
     public partial class clienteAgendaVisualizarc : Form
     {
-        public string id_cliente = "1";
-        public clienteAgendaVisualizarc()
+        public string id_cliente = "";
+        public clienteAgendaVisualizarc(string i)
         {
             InitializeComponent();
+            id_cliente = i;
             dataGridView1.ReadOnly = false;
 
             try

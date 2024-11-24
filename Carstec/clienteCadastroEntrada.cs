@@ -21,16 +21,12 @@ namespace Carstec
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Conexão com o banco de dados
-            string connectionString = "SERVER=127.0.0.1; DATABASE=carstectop; UID=root; PASSWORD=;";
-
-            // Valores dos campos do formulário
+            string connectionString = "SERVER=localhost; DATABASE=carstec; UID=root; PASSWORD=;";
             string nome = textBox1.Text;
             string email = textBox2.Text;
-            string cpf = textBox3.Text;   // Certifique-se de que esse campo está preenchido
-            string senha = textBox4.Text; // Certifique-se de que esse campo está preenchido
+            string cpf = textBox3.Text;
+            string senha = textBox4.Text;
 
-            // Validação básica de campos
             if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(email) ||
                 string.IsNullOrWhiteSpace(cpf) || string.IsNullOrWhiteSpace(senha))
             {
@@ -40,11 +36,13 @@ namespace Carstec
 
             try
             {
+                string userId; // Variável para armazenar o ID do usuário como string
+
                 using (MySqlConnection conexao = new MySqlConnection(connectionString))
                 {
                     conexao.Open();
 
-                    // Verificar duplicatas pelo campo email
+                    // Verificar duplicidade de email
                     string checkQuery = "SELECT COUNT(*) FROM cliente WHERE email = @Email";
                     using (MySqlCommand checkCommand = new MySqlCommand(checkQuery, conexao))
                     {
@@ -58,7 +56,7 @@ namespace Carstec
                         }
                     }
 
-                    // Inserir novo registro
+                    // Inserir novo cliente
                     string inserir = "INSERT INTO cliente (nome, email, cpf, senha) VALUES (@Nome, @Email, @Cpf, @Senha)";
                     using (MySqlCommand comandos = new MySqlCommand(inserir, conexao))
                     {
@@ -66,23 +64,29 @@ namespace Carstec
                         comandos.Parameters.AddWithValue("@Email", email);
                         comandos.Parameters.AddWithValue("@Cpf", cpf);
                         comandos.Parameters.AddWithValue("@Senha", senha);
-
                         comandos.ExecuteNonQuery();
+                    }
+
+                    // Recuperar o ID do usuário recém-cadastrado
+                    string getIdQuery = "SELECT id FROM cliente WHERE cpf = @Cpf";
+                    using (MySqlCommand getIdCommand = new MySqlCommand(getIdQuery, conexao))
+                    {
+                        getIdCommand.Parameters.AddWithValue("@Cpf", cpf);
+                        userId = getIdCommand.ExecuteScalar().ToString(); // Convertendo para string
                     }
                 }
 
-                MessageBox.Show("Cliente cadastrado com sucesso!");
+                MessageBox.Show($"Cliente cadastrado com sucesso! ID: {userId}");
 
-                // Abrir o novo formulário e fechar o atual
-                clienteHome clienteHome = new clienteHome();
+                // Agora você pode abrir a próxima tela ou usar o ID conforme necessário
+                clienteHome clienteHome = new clienteHome(userId);
                 clienteHome.Show();
-                this.Close(); // Fecha o formulário atual
+                this.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Erro: {ex.Message}");
             }
-
         }
 
         private void label8_Click(object sender, EventArgs e)
@@ -92,14 +96,10 @@ namespace Carstec
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Conexão com o banco de dados
-            string connectionString = "SERVER=127.0.0.1; DATABASE=carstectop; UID=root; PASSWORD=;";
-
-            // Valores dos campos do formulário
+            string connectionString = "SERVER=localhost; DATABASE=carstec; UID=root; PASSWORD=;";
             string cpf = textBox5.Text;
             string senha = textBox6.Text;
 
-            // Validação básica de campos
             if (string.IsNullOrWhiteSpace(cpf) || string.IsNullOrWhiteSpace(senha))
             {
                 MessageBox.Show("Por favor, preencha CPF e Senha para entrar.");
@@ -108,29 +108,30 @@ namespace Carstec
 
             try
             {
+                string userId; // Variável para armazenar o ID do usuário como string
+
                 using (MySqlConnection conexao = new MySqlConnection(connectionString))
                 {
                     conexao.Open();
 
-                    // Query para verificar CPF e senha
-                    string loginQuery = "SELECT COUNT(*) FROM cliente WHERE cpf = @Cpf AND senha = @Senha";
+                    // Verificar as credenciais e obter o ID do usuário
+                    string loginQuery = "SELECT id FROM cliente WHERE cpf = @Cpf AND senha = @Senha";
                     using (MySqlCommand loginCommand = new MySqlCommand(loginQuery, conexao))
                     {
-                        // Adicionar os parâmetros na query
                         loginCommand.Parameters.AddWithValue("@Cpf", cpf);
                         loginCommand.Parameters.AddWithValue("@Senha", senha);
 
-                        // Executar a consulta
-                        int count = Convert.ToInt32(loginCommand.ExecuteScalar());
+                        object result = loginCommand.ExecuteScalar();
 
-                        if (count > 0)
+                        if (result != null)
                         {
-                            MessageBox.Show("Login realizado com sucesso!");
+                            userId = result.ToString(); // Recupera o ID do usuário como string
+                            MessageBox.Show($"Login realizado com sucesso! ID: {userId}");
 
-                            // Abrir o próximo formulário (exemplo: página inicial do cliente)
-                            clienteHome clienteHome = new clienteHome();
+                            // Agora você pode abrir a próxima tela ou usar o ID conforme necessário
+                            clienteHome clienteHome = new clienteHome(userId);
                             clienteHome.Show();
-                            this.Close(); // Fecha o formulário atual
+                            this.Close();
                         }
                         else
                         {
