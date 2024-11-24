@@ -17,9 +17,8 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 ### [Giovani Depiéri Santos](https://github.com/Maracaruja)
 - [x] Entrada do cliente.
 - [x] Cadastro do cliente.
-- [ ] Alteração do cliente no módulo do administrador.
-- [ ] Cadastro do administrador no modulo administrador 
-- [ ] Entrada do administrador no modulo administrador
+- [x] Cadastro do administrador.
+- [x] Entrada do administrador.
 - [ ] Cadastro de veiculos no modulo administrador 
 
 ### [João Felipe Francisco Moreira](https://github.com/joaofelipe80)
@@ -36,4 +35,5 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 - [ ] Alteracao do cliente no modulo cliente.
 - [ ] Alteracao do cliente no modulo administrador.
 - [ ] Exclusao do cliente no modulo administrador.
-- [ ] Entrada do administrador.
+- [ ] Alteração do cliente no módulo do administrador.
+  
