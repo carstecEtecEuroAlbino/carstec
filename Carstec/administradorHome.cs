@@ -28,5 +28,11 @@ namespace Carstec
             administradorCarroVisualizar administradorCarroVisualizar = new administradorCarroVisualizar();
             administradorCarroVisualizar.Show();
         }
+
+        private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            administradorAgendasVisualizar administradorAgendasVisualizar = new administradorAgendasVisualizar();
+            administradorAgendasVisualizar.Show();
+        }
     }
 }

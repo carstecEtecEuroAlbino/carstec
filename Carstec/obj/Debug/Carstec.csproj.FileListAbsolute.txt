@@ -162,3 +162,5 @@ C:\Users\Giovani\Downloads\carstec\carstec-main\Carstec\obj\Debug\Carstec.csproj
 C:\Users\Giovani\Downloads\carstec\carstec-main\Carstec\obj\Debug\Carstec.csproj.CopyComplete
 C:\Users\Giovani\Downloads\carstec\carstec-main\Carstec\obj\Debug\Carstec.exe
 C:\Users\Giovani\Downloads\carstec\carstec-main\Carstec\obj\Debug\Carstec.pdb
+C:\Users\Caiopa3\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.administradorCarroAdicionar.resources
+C:\Users\Caiopa3\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.administradorAgendasVisualizar.resources
