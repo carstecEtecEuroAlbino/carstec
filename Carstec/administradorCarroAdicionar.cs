@@ -18,5 +18,10 @@ namespace Carstec
             InitializeComponent();
             id = i;
         }
+
+        private void administradorCarroAdicionar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
