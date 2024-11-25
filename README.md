@@ -34,5 +34,4 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 - [ ] Alteracao do cliente no modulo cliente.
 - [x] Alteracao do cliente no modulo administrador.
 - [ ] Exclusao do cliente no modulo administrador.
-- [ ] Alteração do cliente no módulo do administrador.
-  
+
