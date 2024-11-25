@@ -26,8 +26,7 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 - [ ] Agendamento de veículos no módulo do cliente.
 - [ ] Alterar agenda no módulo do administrador.
 - [ ] Excluir agenda no módulo do administrador.
-- [ ] Alteração dos dados do administrador.
-- [ ] Exclusão do administrador.
+- [x] Exclusão do administrador.
       
 ### [Venicius Ferraz de Aráujo](https://github.com/venicius-braco)
 - [ ] Alteração dos carros no módulo do administrador.
