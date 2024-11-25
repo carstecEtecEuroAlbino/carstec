@@ -14,9 +14,11 @@ namespace Carstec
 {
     public partial class clienteCarroVisualizarc : Form
     {
-        public clienteCarroVisualizarc()
+        public string id_cliente = "";
+        public clienteCarroVisualizarc(string i)
         {
             InitializeComponent();
+            id_cliente = i;
             dataGridView1.ReadOnly = false;
             MySqlConnection conectar = new MySqlConnection("SERVER=localhost;DATABASE=carstec;UID=root;PASSWORD=");
             conectar.Open();
@@ -44,16 +46,16 @@ namespace Carstec
                 while (resultado.Read())
                 {
                     object[] rowValues = new object[dataGridView1.Columns.Count];
-                    for (int i = 0; i < dataGridView1.Columns.Count; i++)
+                    for (int x = 0; x < dataGridView1.Columns.Count; x++)
                     {
 
-                        if (resultado.GetOrdinal(dataGridView1.Columns[i].Name) != -1)
+                        if (resultado.GetOrdinal(dataGridView1.Columns[x].Name) != -1)
                         {
-                            rowValues[i] = resultado.GetValue(resultado.GetOrdinal(dataGridView1.Columns[i].Name));
+                            rowValues[x] = resultado.GetValue(resultado.GetOrdinal(dataGridView1.Columns[x].Name));
                         }
                         else
                         {
-                            rowValues[i] = DBNull.Value;
+                            rowValues[x] = DBNull.Value;
                         }
                     }
                     dataGridView1.Rows.Add(rowValues);
@@ -142,9 +144,9 @@ namespace Carstec
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string id = Convert.ToString(textBox2.Text);
+            string id_carro = Convert.ToString(textBox2.Text);
 
-            clienteCarroAgendar agendarCliente = new clienteCarroAgendar(id);
+            clienteCarroAgendar agendarCliente = new clienteCarroAgendar(id_carro, id_cliente);
             agendarCliente.Show();
             this.Close();
         }

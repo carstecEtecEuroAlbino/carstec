@@ -21,7 +21,7 @@ namespace Carstec
 
         private void carrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            clienteCarroVisualizarc carCliente = new clienteCarroVisualizarc();
+            clienteCarroVisualizarc carCliente = new clienteCarroVisualizarc(id);
             carCliente.Show();
         }
 
