@@ -32,7 +32,7 @@ Nosso projeto é um exemplo de como seria o aplicativo de uma empresa de aluguei
 - [ ] Alteração dos carros no módulo do administrador.
 - [ ] Exclusão dos carros no módulo do administrador.
 - [ ] Alteracao do cliente no modulo cliente.
-- [ ] Alteracao do cliente no modulo administrador.
+- [x] Alteracao do cliente no modulo administrador.
 - [ ] Exclusao do cliente no modulo administrador.
 - [ ] Alteração do cliente no módulo do administrador.
   
