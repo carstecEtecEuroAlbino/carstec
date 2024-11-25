@@ -241,6 +241,9 @@
     <EmbeddedResource Include="administradorClientesAlterar.resx">
       <DependentUpon>administradorClientesAlterar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="administradorClientesExcluir.resx">
+      <DependentUpon>administradorClientesExcluir.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="administradorClientesVisualizar.resx">
       <DependentUpon>administradorClientesVisualizar.cs</DependentUpon>
     </EmbeddedResource>
