@@ -52,5 +52,5 @@
 - [ ] Exclusão dos carros no módulo do administrador.
 - [ ] Alteracao do cliente no modulo cliente.
 - [x] Alteracao do cliente no modulo administrador.
-- [ ] Exclusao do cliente no modulo administrador.
+- [x] Exclusao do cliente no modulo administrador.
 
