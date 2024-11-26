@@ -124,9 +124,16 @@ namespace Carstec
             {
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
-                textBox2.Text = row.Cells["id"].Value.ToString();
+                if (row.Cells["id"].Value == DBNull.Value || row.Cells["id"].Value == null)
+                {
+                    return; 
+                }
+                else
+                {
+                    textBox2.Text = row.Cells["id"].Value.ToString();
+                }
 
-                if (row.Cells["foto"].Value != DBNull.Value)
+                if (row.Cells["foto"].Value != DBNull.Value && row.Cells["foto"].Value != null)
                 {
                     byte[] imagemBytes = (byte[])row.Cells["foto"].Value;
 

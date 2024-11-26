@@ -333,3 +333,5 @@ D:\internet.info\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.csproj.CoreCo
 D:\internet.info\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.csproj.CopyComplete
 D:\internet.info\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.exe
 D:\internet.info\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.pdb
+D:\etim2023.ds\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.administradorClientesExcluir.resources
+D:\etim2023.ds\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.administradorAgendasAlterar.resources

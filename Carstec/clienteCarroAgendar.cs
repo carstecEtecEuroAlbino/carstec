@@ -95,14 +95,12 @@ namespace Carstec
             }
             else if (dias == 0)
             {
-                dias = 1; // Garantir que pelo menos 1 dia de locação seja contado
+                dias = 1;
             }
 
-            // Calcular o valor total da locação
             int valorTotal = valor_carro * dias;
             label4.Text = valorTotal.ToString("F2");
 
-            // Inserir a agenda no banco de dados
             MySqlConnection conectar = new MySqlConnection("SERVER=localhost;DATABASE=carstec;UID=root;PASSWORD=");
             try
             {
