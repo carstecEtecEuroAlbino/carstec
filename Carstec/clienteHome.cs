@@ -30,5 +30,18 @@ namespace Carstec
             clienteAgendaVisualizarc carCliente = new clienteAgendaVisualizarc(id);
             carCliente.Show();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1 Form1 = new Form1();
+            Form1.Show();
+            this.Close();
+        }
+
+        private void alterarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            clienteClienteAlterar clienteClienteAlterar = new clienteClienteAlterar();
+            clienteClienteAlterar.Show();
+        }
     }
 }

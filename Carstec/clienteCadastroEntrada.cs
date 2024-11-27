@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-
 namespace Carstec
 {
     public partial class clienteCadastroEntrada : Form
@@ -36,27 +35,38 @@ namespace Carstec
 
             try
             {
-                string userId; // Variável para armazenar o ID do usuário como string
+                string userId;
 
                 using (MySqlConnection conexao = new MySqlConnection(connectionString))
                 {
                     conexao.Open();
 
-                    // Verificar duplicidade de email
-                    string checkQuery = "SELECT COUNT(*) FROM cliente WHERE email = @Email";
-                    using (MySqlCommand checkCommand = new MySqlCommand(checkQuery, conexao))
+                    string checkEmailQuery = "SELECT COUNT(*) FROM cliente WHERE email = @Email";
+                    using (MySqlCommand checkEmailCommand = new MySqlCommand(checkEmailQuery, conexao))
                     {
-                        checkCommand.Parameters.AddWithValue("@Email", email);
-                        int count = Convert.ToInt32(checkCommand.ExecuteScalar());
+                        checkEmailCommand.Parameters.AddWithValue("@Email", email);
+                        int emailCount = Convert.ToInt32(checkEmailCommand.ExecuteScalar());
 
-                        if (count > 0)
+                        if (emailCount > 0)
                         {
                             MessageBox.Show("Erro: Já existe um cliente com este e-mail.");
                             return;
                         }
                     }
 
-                    // Inserir novo cliente
+                    string checkCpfQuery = "SELECT COUNT(*) FROM cliente WHERE cpf = @Cpf";
+                    using (MySqlCommand checkCpfCommand = new MySqlCommand(checkCpfQuery, conexao))
+                    {
+                        checkCpfCommand.Parameters.AddWithValue("@Cpf", cpf);
+                        int cpfCount = Convert.ToInt32(checkCpfCommand.ExecuteScalar());
+
+                        if (cpfCount > 0)
+                        {
+                            MessageBox.Show("Erro: Já existe um cliente com este CPF.");
+                            return;
+                        }
+                    }
+
                     string inserir = "INSERT INTO cliente (nome, email, cpf, senha) VALUES (@Nome, @Email, @Cpf, @Senha)";
                     using (MySqlCommand comandos = new MySqlCommand(inserir, conexao))
                     {
@@ -67,18 +77,16 @@ namespace Carstec
                         comandos.ExecuteNonQuery();
                     }
 
-                    // Recuperar o ID do usuário recém-cadastrado
                     string getIdQuery = "SELECT id FROM cliente WHERE cpf = @Cpf";
                     using (MySqlCommand getIdCommand = new MySqlCommand(getIdQuery, conexao))
                     {
                         getIdCommand.Parameters.AddWithValue("@Cpf", cpf);
-                        userId = getIdCommand.ExecuteScalar().ToString(); // Convertendo para string
+                        userId = getIdCommand.ExecuteScalar().ToString();
                     }
                 }
 
                 MessageBox.Show($"Cliente cadastrado com sucesso! ID: {userId}");
 
-                // Agora você pode abrir a próxima tela ou usar o ID conforme necessário
                 clienteHome clienteHome = new clienteHome(userId);
                 clienteHome.Show();
                 this.Close();
@@ -87,11 +95,6 @@ namespace Carstec
             {
                 MessageBox.Show($"Erro: {ex.Message}");
             }
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -108,13 +111,12 @@ namespace Carstec
 
             try
             {
-                string userId; // Variável para armazenar o ID do usuário como string
+                string userId;
 
                 using (MySqlConnection conexao = new MySqlConnection(connectionString))
                 {
                     conexao.Open();
 
-                    // Verificar as credenciais e obter o ID do usuário
                     string loginQuery = "SELECT id FROM cliente WHERE cpf = @Cpf AND senha = @Senha";
                     using (MySqlCommand loginCommand = new MySqlCommand(loginQuery, conexao))
                     {
@@ -125,10 +127,9 @@ namespace Carstec
 
                         if (result != null)
                         {
-                            userId = result.ToString(); // Recupera o ID do usuário como string
+                            userId = result.ToString();
                             MessageBox.Show($"Login realizado com sucesso! ID: {userId}");
 
-                            // Agora você pode abrir a próxima tela ou usar o ID conforme necessário
                             clienteHome clienteHome = new clienteHome(userId);
                             clienteHome.Show();
                             this.Close();

@@ -25,7 +25,7 @@ namespace Carstec
             dataGridView1.Rows.Clear();
             MySqlDataReader resultado = consulta.ExecuteReader();
 
-
+            // Adicionar colunas da tabela 'agenda'
             while (resultado.Read())
             {
                 string colunaNome = resultado["Field"].ToString();
@@ -33,9 +33,16 @@ namespace Carstec
                 comboBox1.Items.Add(resultado["Field"].ToString());
             }
 
+            // Adicionar coluna para o nome do cliente
+            dataGridView1.Columns.Add("cliente_nome", "Cliente");
+
             resultado.Close();
 
-            consulta.CommandText = "SELECT * FROM agenda";
+            // Atualizar a consulta SQL para incluir a tabela 'cliente' usando a tabela intermediária 'cliente_agenda'
+            consulta.CommandText = @"SELECT a.*, c.nome AS cliente_nome
+                                    FROM agenda a
+                                    JOIN cliente_agenda ca ON a.id = ca.FK_Agenda_id
+                                    JOIN cliente c ON ca.FK_Cliente_id = c.id";
             resultado = consulta.ExecuteReader();
 
             if (resultado.HasRows)
@@ -43,9 +50,8 @@ namespace Carstec
                 while (resultado.Read())
                 {
                     object[] rowValues = new object[dataGridView1.Columns.Count];
-                    for (int i = 0; i < dataGridView1.Columns.Count; i++)
+                    for (int i = 0; i < dataGridView1.Columns.Count - 1; i++)  // Excluir a coluna do nome do cliente
                     {
-
                         if (resultado.GetOrdinal(dataGridView1.Columns[i].Name) != -1)
                         {
                             rowValues[i] = resultado.GetValue(resultado.GetOrdinal(dataGridView1.Columns[i].Name));
@@ -55,6 +61,8 @@ namespace Carstec
                             rowValues[i] = DBNull.Value;
                         }
                     }
+                    // Preencher o nome do cliente na última coluna
+                    rowValues[dataGridView1.Columns.Count - 1] = resultado["cliente_nome"];
                     dataGridView1.Rows.Add(rowValues);
                 }
 
@@ -105,7 +113,10 @@ namespace Carstec
             conectar.Open();
             MySqlCommand consulta = new MySqlCommand();
             consulta.Connection = conectar;
-            consulta.CommandText = "SELECT * FROM agenda WHERE " + campo + " LIKE '%" + nomecampo + "%'";
+            consulta.CommandText = "SELECT a.*, c.nome AS cliente_nome FROM agenda a " +
+                                   "JOIN cliente_agenda ca ON a.id = ca.FK_Agenda_id " +
+                                   "JOIN cliente c ON ca.FK_Cliente_id = c.id " +
+                                   "WHERE " + campo + " LIKE '%" + nomecampo + "%'";
             dataGridView1.Rows.Clear();
             MySqlDataReader resultado = consulta.ExecuteReader();
 
@@ -114,9 +125,8 @@ namespace Carstec
                 while (resultado.Read())
                 {
                     object[] rowValues = new object[dataGridView1.Columns.Count];
-                    for (int i = 0; i < dataGridView1.Columns.Count; i++)
+                    for (int i = 0; i < dataGridView1.Columns.Count - 1; i++)  // Excluir a coluna do nome do cliente
                     {
-
                         if (resultado.GetOrdinal(dataGridView1.Columns[i].Name) != -1)
                         {
                             rowValues[i] = resultado.GetValue(resultado.GetOrdinal(dataGridView1.Columns[i].Name));
@@ -126,6 +136,8 @@ namespace Carstec
                             rowValues[i] = DBNull.Value;
                         }
                     }
+                    // Preencher o nome do cliente na última coluna
+                    rowValues[dataGridView1.Columns.Count - 1] = resultado["cliente_nome"];
                     dataGridView1.Rows.Add(rowValues);
                 }
 

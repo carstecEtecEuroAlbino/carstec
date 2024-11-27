@@ -16,6 +16,7 @@ namespace Carstec
         public string id_carro = "";
         public string id_cliente = "";
         public int valor_carro = 0;
+
         public clienteCarroAgendar(string i_carro, string i_cliente)
         {
             InitializeComponent();
@@ -46,7 +47,8 @@ namespace Carstec
             DateTime dataFim = monthCalendar2.SelectionStart;
             DateTime dataAtual = DateTime.Now;
 
-            if (dataInicio < dataAtual)
+            // Permitir que a data de início seja o dia atual ou um dia no futuro
+            if (dataInicio < dataAtual.Date)
             {
                 MessageBox.Show("A data de início deve ser posterior ou igual à data atual.");
                 return;
@@ -63,7 +65,7 @@ namespace Carstec
                 }
                 else if (dias == 0)
                 {
-                    dias = 1;
+                    dias = 1; // Se o número de dias for 0, consideramos 1 dia de aluguel.
                 }
 
                 int valorTotal = valor_carro * dias;
@@ -79,7 +81,8 @@ namespace Carstec
             DateTime dataFim = monthCalendar2.SelectionStart;
             DateTime dataAtual = DateTime.Now;
 
-            if (dataInicio < dataAtual)
+            // Permitir que a data de início seja o dia atual ou um dia no futuro
+            if (dataInicio < dataAtual.Date)
             {
                 MessageBox.Show("A data de início deve ser posterior ou igual à data atual.");
                 return;
@@ -95,7 +98,7 @@ namespace Carstec
             }
             else if (dias == 0)
             {
-                dias = 1;
+                dias = 1; // Se o número de dias for 0, consideramos 1 dia de aluguel.
             }
 
             int valorTotal = valor_carro * dias;

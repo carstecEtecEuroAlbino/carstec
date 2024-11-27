@@ -212,6 +212,12 @@
     <Compile Include="clienteCarroVisualizarc.Designer.cs">
       <DependentUpon>clienteCarroVisualizarc.cs</DependentUpon>
     </Compile>
+    <Compile Include="clienteClienteAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clienteClienteAlterar.Designer.cs">
+      <DependentUpon>clienteClienteAlterar.cs</DependentUpon>
+    </Compile>
     <Compile Include="clienteHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -267,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clienteCarroVisualizarc.resx">
       <DependentUpon>clienteCarroVisualizarc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clienteClienteAlterar.resx">
+      <DependentUpon>clienteClienteAlterar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clienteHome.resx">
       <DependentUpon>clienteHome.cs</DependentUpon>

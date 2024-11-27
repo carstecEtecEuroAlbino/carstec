@@ -102,7 +102,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
             this.Name = "clienteAgendaVisualizarc";
-            this.Text = "clienteAgendaVisualizarc";
+            this.Text = " ";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
