@@ -19,9 +19,20 @@
 ## Como Rodar o Projeto
 
 ### Pré-requisitos
-- .NET Framework (para rodar o projeto C#)
+- .NET Framework (para rodar o projeto em C#)
 - MySQL (para rodar o banco de dados)
-- Ambiente de desenvolvimento (Visual Studio, VS Code ou outro IDE de sua preferência)
+- Ambiente de desenvolvimento (Visual Studio, VS Code ou outra IDE de sua preferência)
+
+### Passos
+1. Clone o repositório do projeto no seu ambiente local.
+2. Certifique-se de que o MySQL está instalado e rodando no seu sistema.
+3. **Importe o Banco de Dados**:
+   - No diretório do projeto, na pasta "Banco de dados" você encontrará um arquivo SQL (`carstec.sql`).
+   - Acesse seu gerenciador de banco de dados (MySQL Workbench, phpMyAdmin, etc.).
+   - Crie um banco de dados com o nome `carstec`.
+   - Importe o arquivo SQL para popular o banco de dados com as tabelas e dados necessários.
+4. Abra o projeto no Visual Studio e compile-o para gerar o executável.
+5. Execute o sistema e aproveite suas funcionalidades.
 
 ## Alunos e Tarefas
 
@@ -40,7 +51,7 @@
 - [x] Cadastro do cliente.
 - [x] Cadastro do administrador.
 - [x] Entrada do administrador.
-- [ ] Cadastro de veiculos no modulo administrador 
+- [ ] Cadastro de veículos no módulo administrador.
 
 ### [João Felipe Francisco Moreira](https://github.com/joaofelipe80)
 - [x] Criação do banco de dados.
@@ -52,7 +63,8 @@
 ### [Venicius Ferraz de Aráujo](https://github.com/venicius-braco)
 - [ ] Alteração dos carros no módulo do administrador.
 - [ ] Exclusão dos carros no módulo do administrador.
-- [ ] Alteracao do cliente no modulo cliente.
-- [x] Alteracao do cliente no modulo administrador.
-- [x] Exclusao do cliente no modulo administrador.
+- [ ] Alteração do cliente no módulo cliente.
+- [x] Alteração do cliente no módulo administrador.
+- [x] Exclusão do cliente no módulo administrador.
 
+---
