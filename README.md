@@ -44,7 +44,7 @@
 ### [João Felipe Francisco Moreira](https://github.com/joaofelipe80)
 - [x] Criação do banco de dados.
 - [x] Agendamento de veículos no módulo do cliente.
-- [ ] Alterar agenda no módulo do administrador.
+- [x] Alterar agenda no módulo do administrador.
 - [ ] Excluir agenda no módulo do administrador.
 - [x] Exclusão do administrador.
       
