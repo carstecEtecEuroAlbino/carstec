@@ -39,7 +39,7 @@
 - [x] Cadastro do cliente.
 - [x] Cadastro do administrador.
 - [x] Entrada do administrador.
-- [ ] Cadastro de veiculos no modulo administrador 
+- [x] Cadastro de veiculos no modulo administrador 
 
 ### [João Felipe Francisco Moreira](https://github.com/joaofelipe80)
 - [x] Criação do banco de dados.
