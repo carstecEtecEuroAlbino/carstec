@@ -26,6 +26,7 @@
 ## Alunos e Tarefas
 
 ### [Caio Raphael Rangel](https://github.com/caiopa3)
+- [x] Criação do banco de dados.
 - [x] Lista de veículos no módulo do cliente.
 - [x] Histórico de agendas no módulo do cliente.
 - [x] Lista de veículos no módulo do administrador.
@@ -39,13 +40,13 @@
 - [x] Cadastro do cliente.
 - [x] Cadastro do administrador.
 - [x] Entrada do administrador.
-- [x] Cadastro de veiculos no modulo administrador 
+- [ ] Cadastro de veiculos no modulo administrador 
 
 ### [João Felipe Francisco Moreira](https://github.com/joaofelipe80)
 - [x] Criação do banco de dados.
 - [x] Agendamento de veículos no módulo do cliente.
 - [x] Alterar agenda no módulo do administrador.
-- [ ] Excluir agenda no módulo do administrador.
+- [x] Excluir agenda no módulo do administrador.
 - [x] Exclusão do administrador.
       
 ### [Venicius Ferraz de Aráujo](https://github.com/venicius-braco)
