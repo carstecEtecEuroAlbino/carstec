@@ -32,8 +32,7 @@
 - [x] Lista de agendas no módulo do administrador.
 - [x] Lista de administradores no módulo do administrador.
 - [x] Lista de clientes no módulo do administrador.
-- [ ] Alteração dos dados do cliente no módulo do cliente.
-- [ ] Sair da conta do cliente no módulo do cliente.
+- [x] Sair da conta do cliente no módulo do cliente.
 
 ### [Giovani Depiéri Santos](https://github.com/Maracaruja)
 - [x] Entrada do cliente.
