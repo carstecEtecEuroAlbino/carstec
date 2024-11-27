@@ -45,6 +45,7 @@
             this.button2.TabIndex = 26;
             this.button2.Text = "Agendar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label4
             // 
@@ -77,6 +78,7 @@
             this.monthCalendar2.Location = new System.Drawing.Point(263, 37);
             this.monthCalendar2.Name = "monthCalendar2";
             this.monthCalendar2.TabIndex = 21;
+            this.monthCalendar2.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar2_DateChanged);
             // 
             // label1
             // 
@@ -92,6 +94,7 @@
             this.monthCalendar1.Location = new System.Drawing.Point(18, 37);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 19;
+            this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
             // 
             // administradorAgendasAlterar
             // 

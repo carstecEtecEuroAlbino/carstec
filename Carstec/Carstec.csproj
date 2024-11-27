@@ -238,6 +238,9 @@
     <EmbeddedResource Include="administradorAgendasAlterar.resx">
       <DependentUpon>administradorAgendasAlterar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="administradorAgendasExcluir.resx">
+      <DependentUpon>administradorAgendasExcluir.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="administradorAgendasVisualizar.resx">
       <DependentUpon>administradorAgendasVisualizar.cs</DependentUpon>
     </EmbeddedResource>
