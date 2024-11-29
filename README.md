@@ -63,7 +63,7 @@
 ### [Venicius Ferraz de Aráujo](https://github.com/venicius-braco)
 - [ ] Alteração dos carros no módulo do administrador.
 - [ ] Exclusão dos carros no módulo do administrador.
-- [ ] Alteração do cliente no módulo cliente.
+- [x] Alteração do cliente no módulo cliente.
 - [x] Alteração do cliente no módulo administrador.
 - [x] Exclusão do cliente no módulo administrador.
 
