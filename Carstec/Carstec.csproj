@@ -247,6 +247,9 @@
     <EmbeddedResource Include="administradorCarroAdicionar.resx">
       <DependentUpon>administradorCarroAdicionar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="administradorCarroExcluir.resx">
+      <DependentUpon>administradorCarroExcluir.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="administradorCarroVisualizar.resx">
       <DependentUpon>administradorCarroVisualizar.cs</DependentUpon>
     </EmbeddedResource>
