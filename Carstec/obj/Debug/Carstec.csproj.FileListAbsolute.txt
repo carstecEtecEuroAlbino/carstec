@@ -396,3 +396,6 @@ C:\Users\Caiopa3\Desktop\Nova pasta\carstec\Carstec\obj\Debug\Carstec.csproj.Up2
 C:\Users\Caiopa3\Desktop\Nova pasta\carstec\Carstec\obj\Debug\Carstec.exe
 C:\Users\Caiopa3\Desktop\Nova pasta\carstec\Carstec\obj\Debug\Carstec.pdb
 C:\Users\Caiopa3\Desktop\Nova pasta\carstec\Carstec\obj\Debug\Carstec.administradorAgendasExcluir.resources
+D:\internet.info\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.administradorAgendasAlterar.resources
+D:\internet.info\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.administradorAgendasExcluir.resources
+D:\internet.info\Desktop\carstec\carstec\Carstec\obj\Debug\Carstec.clienteClienteAlterar.resources

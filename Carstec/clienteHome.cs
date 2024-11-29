@@ -40,7 +40,7 @@ namespace Carstec
 
         private void alterarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            clienteClienteAlterar clienteClienteAlterar = new clienteClienteAlterar();
+            clienteClienteAlterar clienteClienteAlterar = new clienteClienteAlterar(id);
             clienteClienteAlterar.Show();
         }
     }
