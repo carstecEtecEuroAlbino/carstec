@@ -16,6 +16,12 @@
 - **Lista de Clientes**: Visualização dos clientes cadastrados na locadora.
 - **Cadastro de Administradores e Clientes**: Permite o cadastro e gestão de administradores e clientes.
 
+
+## Tecnologias Utilizadas
+- **C#** com Windows Forms para a interface do usuário.
+- **MySQL** para o gerenciamento do banco de dados.
+- **Visual Studio** como IDE principal.
+
 ## Como Rodar o Projeto
 
 ### Pré-requisitos
@@ -24,7 +30,10 @@
 - Ambiente de desenvolvimento (Visual Studio, VS Code ou outra IDE de sua preferência)
 
 ### Passos
-1. Clone o repositório do projeto no seu ambiente local.
+1. **Clone o repositório**
+   Abra o terminal ou prompt de comando e execute:
+   ```bash
+   git clone https://github.com/usuario/carstec.git
 2. Certifique-se de que o MySQL está instalado e rodando no seu sistema.
 3. **Importe o Banco de Dados**:
    - No diretório do projeto, na pasta "Banco de dados" você encontrará um arquivo SQL (`carstec.sql`).
