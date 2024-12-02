@@ -126,7 +126,7 @@
 - [x] Cadastro do cliente.
 - [x] Cadastro do administrador.
 - [x] Entrada do administrador.
-- [ ] Cadastro de veículos no módulo administrador.
+- [x] Cadastro de veículos no módulo administrador.
 
 ### [João Felipe Francisco Moreira](https://github.com/joaofelipe80)
 - [x] Criação do banco de dados.
