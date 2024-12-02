@@ -14,7 +14,7 @@
 - **Lista de Agendas**: Visualização de todos os agendamentos realizados pelos clientes.
 - **Lista de Administradores**: Visualização dos administradores cadastrados no sistema.
 - **Lista de Clientes**: Visualização dos clientes cadastrados na locadora.
-- **Cadastro de Administradores e Clientes**: Permite o cadastro e gestão de administradores e clientes.
+- **Cadastro de Administradores, Clientes e Carros**: Permite o cadastro e gestão de administradores, clientes e carros.
 
 
 ## Tecnologias Utilizadas
@@ -53,13 +53,13 @@
 2. **Agendar Locação de Veículo**  
    *Como cliente, quero agendar a locação de um veículo, para garantir que ele estará disponível na data e horário que preciso.*
 
-3. **Cancelar Agendamento**  
-   *Como cliente, quero cancelar um agendamento antes da data da locação, caso não precise mais do veículo.*
-
-4. **Verificar Histórico de Locação**  
+3. **Verificar Histórico de Locação**  
    *Como cliente, quero visualizar meu histórico de locações passadas e agendamentos futuros, para acompanhar meus registros e planejar futuras locações.*
 
-7. **Sair da Conta**  
+4. **Alterar dados da Conta**  
+   *Como cliente, quero alterar os dados da minha conta, para corrigir informações erradas.*
+
+5. **Sair da Conta**  
    *Como cliente, quero sair da minha conta, para proteger minhas informações quando terminar de usar o sistema.*
 
 ---
@@ -101,11 +101,8 @@
 
 12. **Adicionar Novo Administrador**  
     *Como administrador, quero cadastrar novos administradores, para ampliar a equipe de gerenciamento.*
-
-13. **Editar Informações de Administrador**  
-    *Como administrador, quero alterar informações do perfil de um administrador, para manter os registros atualizados.*
-
-14. **Excluir Administrador**  
+    
+13. **Excluir Administrador**  
     *Como administrador, quero excluir um administrador do sistema, caso ele não faça mais parte da equipe.*
 
 
