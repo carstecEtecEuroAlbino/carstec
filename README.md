@@ -129,7 +129,6 @@
 - [x] Cadastro de veículos no módulo administrador.
 
 ### [João Felipe Francisco Moreira](https://github.com/joaofelipe80)
-- [x] Criação do banco de dados.
 - [x] Agendamento de veículos no módulo do cliente.
 - [x] Alterar agenda no módulo do administrador.
 - [x] Excluir agenda no módulo do administrador.
